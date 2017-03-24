@@ -1,0 +1,27 @@
+{
+    "name": "slim/cors",
+    "type": "library",
+    "description": "Slim Framework 3 CORS middleware",
+    "keywords": ["slim","framework","middleware","cors"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haven Shen",
+            "email": "havenshen@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "slim/slim": "^3.8",
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slim\\Cors\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slim\\Cors\\Tests\\": "tests"
+        }
+    }
+}
