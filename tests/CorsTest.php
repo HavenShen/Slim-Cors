@@ -9,7 +9,7 @@ use Slim\Http\Headers;
 use Slim\Http\Request;
 use Slim\Http\Response;
 use Slim\Http\Uri;
-use Slim\Cors\Guard;
+use HavenShen\Slim\Cors\Guard;
 
 class CorsTest extends \PHPUnit\Framework\TestCase
 {

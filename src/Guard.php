@@ -1,6 +1,6 @@
 <?php
 
-namespace Slim\Cors;
+namespace HavenShen\Slim\Cors;
 
 class Guard
 {

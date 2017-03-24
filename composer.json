@@ -1,5 +1,5 @@
 {
-    "name": "slim/cors",
+    "name": "havenshen/slim-cors",
     "type": "library",
     "description": "Slim Framework 3 CORS middleware",
     "keywords": ["slim","framework","middleware","cors"],
@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Slim\\Cors\\": "src"
+            "HavenShen\\Slim\\Cors\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Slim\\Cors\\Tests\\": "tests"
+            "HavenShen\\Slim\\Cors\\Tests\\": "tests"
         }
     }
 }
