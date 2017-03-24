@@ -41,7 +41,7 @@ $container['cors'] = function ($c) {
     return new \HavenShen\Slim\Cors\Guard;
 };
 
-$app->add($container->get('csrf'));
+$app->add($container->get('cors'));
 ```
 
 ## Testing
